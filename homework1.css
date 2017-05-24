@@ -4,6 +4,7 @@
 
 body {
 	background-color: #666;
+	box-sizing: border-box;
 }
 
 #header {
@@ -57,13 +58,10 @@ body {
 	background-color: #eee;
 	color: #666;
 	padding: 10px;
-	margin-bottom: 20px;
+	margin-bottom: 10px;
 	margin-top: 20px;
 	margin-left: 20px;
 	margin-right: 20px;
-	border-style: solid;
-	border-color: #666;
-	border-bottom-width: 10px;
 
 }
 
@@ -71,12 +69,9 @@ body {
 	background-color: #eee;
 	color: #666;
 	padding: 10px;
-	border-style: solid;
-	border-color: #666;
-	border-top-width: 10px;
-	margin-right: -13px;
-	margin-left: -13px;
-	margin-bottom: -10px;
+	margin-right: 20px;
+	margin-left: 20px;
+	margin-bottom: 20px;
 }
 
 #aside {
